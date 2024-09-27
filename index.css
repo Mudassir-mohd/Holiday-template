@@ -1,0 +1,276 @@
+
+header{
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    height: 510px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 15px;
+}
+.nav h2{
+    color: yellow;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-top: 25px;
+    color: none;
+    color: white;
+}
+.ul1:hover{
+    background-color: yellow;
+    color: black;
+    height: 25px;
+}
+.ul2:hover{
+    background-color: yellow;
+    color: black;
+    height: 25px;
+}
+.ul3:hover{
+    background-color: yellow;
+    color: black;
+    height: 25px;
+}
+.ul4:hover{
+    background-color: yellow;
+    color: black;
+    height: 25px;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+.headertext{
+    /* background-color: black; */
+    position: relative;
+    top:-350px;
+    color: white;
+}
+.hh1,.hh2,.hh3{
+    display: flex;
+    justify-content: center;
+}
+.hh2{
+    position: relative;
+    top: -35px;
+}
+.hh3{
+    position: relative;
+    top: -30px;
+}
+.hh3 button{
+    background-color: darkkhaki;
+    color: white;
+    height: 43px;
+    width: 150px;
+    border: 3px yellowgreen;
+}
+.hh3 button:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    transform: scale(1.2);
+}
+main{
+    background-color: rgb(202, 202, 202);
+    height: 1000px;
+    border-radius: 15px;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.card1{
+    position: relative;
+    top: -50px;
+    background-color:rgb(238, 238, 5);
+    height: 380px;
+    width: 300px;
+    margin-left: 0px;
+    
+}
+.cardtop{
+    background-color: white;
+    height: 300px;
+}
+select,input{
+    margin-left: 50px;
+    width: 200px;
+}
+.hotel{
+    margin-left: 50px;
+    background-color: aliceblue;
+    
+}
+.RENTAL{
+    
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+    margin-left: 95px;
+}
+.card1 button{
+    margin-left: 95px;
+    background-color: rgb(188, 188, 10);
+    height: 35px;
+    width: 110px;
+    
+}
+.card1 button:hover{
+    color: cornsilk;
+    background-color: burlywood;
+    transform: scale(1.2);
+}
+.card2{
+    position: relative;
+    top: -50px;
+    background-color:green;
+    height: 380px;
+}
+.card2 span{
+    margin-left: 50px;
+    word-spacing: 60px;
+    color: white;
+}
+.card3{
+    position: relative;
+    top: -50px;
+    background-color:rgb(209, 53, 53);
+    height: 380px;
+}
+.card3 span{
+    margin-left: 60px;
+    word-spacing: 70px;
+    color: white;
+}
+.hr{
+    
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.hr span{
+    background: rgb(202, 202, 202);
+    padding: 0 50px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 150px;
+    margin-right: 110px;
+}
+.card4{
+    background-color:whitesmoke;
+    height: 380px;
+}
+.card4 span{
+    text-align: center;
+}
+.card5{
+    background-color:whitesmoke;
+    height: 380px;
+}
+.card6{
+    background-color:whitesmoke;
+    height: 380px;
+}
+.card7{
+    background-color:whitesmoke;
+    height: 380px;
+}
+.boot{
+    text-align: center;
+   
+}
+.hr1{
+    
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.hr1 span{
+    background: white; 
+    padding: 0 50px;
+}
+.container3{
+    /* background-color: black; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns:600px 600px;
+    gap: 20px;
+    
+}
+.card8{
+    /* background-color: aqua; */
+    border: 2px solid;
+    width: 500px;
+    height:200px;
+}
+.card9{
+    /* background-color: aqua; */
+    border: 2px solid;
+    width: 500px;
+    height: 200px;
+
+}
+.card10{
+    /* background-color: aqua; */
+    border: 2px solid;
+    width: 500px;
+    height: 200px;
+}
+.card11{
+    /* background-color: aqua; */
+    border: 2px solid;
+    width: 500px;
+    height: 200px;
+}
+.card8 p{
+   position: relative;
+   top: -180px;
+   left: 220px;
+   
+}
+.card9 p{
+    position: relative;
+    top: -180px;
+    left: 220px;
+    
+}
+.card10 p{
+    position: relative;
+    top: -180px;
+    left: 220px;
+    
+}
+.card11 p{
+    position: relative;
+    top: -180px;
+    left: 220px;
+    
+} 
+footer{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    height: 80px;
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+    padding-top: 20px;
+}
